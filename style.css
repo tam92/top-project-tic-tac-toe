@@ -1,0 +1,61 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(fonts/PixelCode.woff2),
+         url(fonts/PixelCode.woff),
+         url(fonts/PixelCode.otf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20%;
+}
+
+h1 {
+    align-self: center;
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(254, 254, 250);
+    padding: 20px;
+    font-family: pixelFont, 'Courier New', Courier, monospace;
+    border: 10px solid black;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+
+#board {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    background-color: black;
+    gap: 10px;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+.cell {
+    background-color: rgb(254, 254, 250);
+    padding: 20px;
+}
+
+.cell img {
+    height: 100%;
+}
