@@ -4,10 +4,7 @@ This is my take on the project "Tic-Tac-Toe", from [The Odin Project curriculum]
 
 ## Description
 
-This is a game of Tic-Tac-Toe that can be played in the browser.
-
-## Features
-
+This is a two-player game of Tic-Tac-Toe that can be played in the browser. 
 
 ## Built with:
 
@@ -20,3 +17,4 @@ This is a game of Tic-Tac-Toe that can be played in the browser.
 - Circle symbol: https://www.svgrepo.com/svg/498774/circle
 - X symbol: https://www.svgrepo.com/svg/498856/multiply
 - Title font:  https://fontesk.com/pixel-code-font/
+- Favicon: https://www.favicon.cc/?action=icon&file_id=989480
