@@ -59,3 +59,21 @@ h1 {
 .cell img {
     height: 100%;
 }
+
+#info {
+    height: 4em;
+    border: 10px solid black;
+    width: 400px;
+    max-width: 500px;
+    align-self: center;
+    margin: 1em;
+    background-color: rgb(254, 254, 250);
+    font-family: pixelFont;
+    display: flex;
+    justify-content: center;
+}
+
+#infoP {
+    padding: 10px;
+    text-align: center;
+}
