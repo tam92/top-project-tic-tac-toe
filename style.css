@@ -25,12 +25,13 @@ body {
 
 h1 {
     align-self: center;
-    font-size: 4em;
+    font-size: 2.2em;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(254, 254, 250);
     padding: 20px;
     font-family: pixelFont, 'Courier New', Courier, monospace;
     border: 10px solid black;
+    width: 340px;
 }
 
 #container {
@@ -43,8 +44,8 @@ h1 {
 #board {
     align-self: center;
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
     background-color: black;
     gap: 10px;
     max-width: fit-content;
@@ -63,8 +64,8 @@ h1 {
 #info {
     height: 4em;
     border: 10px solid black;
-    width: 400px;
-    max-width: 500px;
+    width: 340px;
+    max-width: 350px;
     align-self: center;
     margin: 1em;
     background-color: rgb(254, 254, 250);
